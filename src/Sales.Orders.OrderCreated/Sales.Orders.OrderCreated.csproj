@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Database.cs" />
     <Compile Include="EndpointConfig.cs" />
     <Compile Include="PlaceOrderHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
