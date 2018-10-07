@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Place an Order</title>
+</head>
+<body>
+<div>
+    <h1>Place An Order</h1>
+    <form method="post" action="/orders/place">
+        <p>
+            UserId: <input type="text" name="userId"/>
+        </p>
+        <p>
+            ProductIds: <input type="text" name="productIds"/>
+        </p>
+        <p>
+            ShippingTypeId: <input type="text" name="shippingTypeId"/>
+        </p>
+        <p>
+           <input type="submit" value="Place Order"/>
+        </p>
+    </form>
+</div>
+</body>
+</html>
